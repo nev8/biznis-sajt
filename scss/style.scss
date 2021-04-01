@@ -35,7 +35,6 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
-    color: white;
 }
 ul {
     list-style: none;
@@ -47,6 +46,10 @@ a {
         color: white;
         transition: $transition;
     }
+}
+.container {
+    width: 80%;
+    margin: auto;
 }
 /*********************
 Nav
@@ -88,6 +91,35 @@ nav {
                     &:hover {
                        color: $lightgray; 
                     }
+                }
+            }
+        }
+    }
+}
+/*********************
+Footer
+*********************/
+footer {
+    padding: 100px 0;
+    background: linear-gradient(to right, black, $pink);
+    text-align: center;
+    .container {
+        @include flex(space-between, center, row);
+        .col {
+            flex: 1;
+            .logo {
+                font-size: 1.5rem;
+                line-height: 25px;
+                font-weight: 600;
+                color: white;
+                span {
+                    font-size: 1rem;
+                    color: $pink;
+                    font-weight: 500;
+                }
+                &:hover {
+                    color: $pink;
+                    transition: $transition;
                 }
             }
         }
