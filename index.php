@@ -41,4 +41,44 @@
         </article>
     </section>
 
+    <!--Services-->
+    <section class="services container">
+        <article>
+            <i class="far fa-chart-bar"></i>
+            <h3>Marketing</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ullam illo, perferendis qui in rem consequatur omnis cumque saepe, repellendus eaque. Labore ducimus modi dolorum voluptates sequi iste praesentium, omnis.</p>
+        </article>
+        <article>
+            <i class="fas fa-bullseye"></i>
+            <h3>Marketing</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ullam illo, perferendis qui in rem consequatur omnis cumque saepe, repellendus eaque. Labore ducimus modi dolorum voluptates sequi iste praesentium, omnis.</p>
+        </article>
+        <article>
+            <i class="fas fa-map-sign"></i>
+            <h3>Marketing</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ullam illo, perferendis qui in rem consequatur omnis cumque saepe, repellendus eaque. Labore ducimus modi dolorum voluptates sequi iste praesentium, omnis.</p>
+        </article>
+        <article>
+            <i class="fas fa-filter"></i>
+            <h3>Marketing</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ullam illo, perferendis qui in rem consequatur omnis cumque saepe, repellendus eaque. Labore ducimus modi dolorum voluptates sequi iste praesentium, omnis.</p>
+        </article>
+        <article>
+            <i class="fas fa-hand-holding-usd"></i>
+            <h3>Marketing</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ullam illo, perferendis qui in rem consequatur omnis cumque saepe, repellendus eaque. Labore ducimus modi dolorum voluptates sequi iste praesentium, omnis.</p>
+        </article>
+        <article>
+            <i class="fas fa-bullhorn"></i>
+            <h3>Marketing</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ullam illo, perferendis qui in rem consequatur omnis cumque saepe, repellendus eaque. Labore ducimus modi dolorum voluptates sequi iste praesentium, omnis.</p>
+        </article>
+    </section>
+
     <?php include "partials/footer.php" ?> 
