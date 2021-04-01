@@ -21,6 +21,18 @@ mixins
     align-items: $align;
     flex-direction: $direction;
 }
+@mixin btn {
+    padding: 15px 40px;
+    background: $pink;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    &:hover {
+        background: black;
+        transition: $transition;
+    }
+}
 /*********************
 basic styles
 *********************/
@@ -49,7 +61,7 @@ a {
 }
 .container {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
 }
 /*********************
 Nav
@@ -124,4 +136,32 @@ footer {
             }
         }
     }
+}
+/*********************
+Header
+*********************/
+header {
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    @include flex(center, flex-end, column);
+    padding-right: 300px;
+    text-align: right;
+    h1 {
+        font-size: 4rem;
+        line-height: 1.3;
+    }
+    h3 {
+        font-size: 2rem;
+        color: $pink;
+        padding: 20px 0;
+    }
+    p {
+        color: $pink;
+        font-size: 1rem;
+    }
+    button {
+        @include btn;
+    }    
 }
