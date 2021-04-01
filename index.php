@@ -15,16 +15,40 @@
 <body>
     <!--Nav-->
     <nav>
-    <a href="" class="logo">BUSINESS <br> <span>Marketing &amp; consulting</span></a>
-    <ul>
-    <li><a href="">Home</a></li>
-    <li><a href="">About</a></li>
-    <li><a href="">Services</a></li>
-    <li><a href="">Team</a></li>
-    <li><a href="">Sign up</a></li>
-    <li><a href=""><i class="fas fa-search"></i></a></li>
-    </ul>
+        <a href="" class="logo">BUSINESS <br> <span>Marketing &amp; consulting</span></a>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Sign up</a></li>
+            <li><a href=""><i class="fas fa-search"></i></a></li>
+        </ul>
     </nav>
+
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="col">
+                <a href="" class="logo">BUSINESS <br> <span>Marketing &amp; consulting</span></a>
+            </div>
+            <div class="col">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Main street 2, Novi Sad</p>
+                <p>Serbia</p>
+            </div>
+            <div class="col">
+                <i class="fas fa-envelope"></i>
+                <p>Main street 2, Novi Sad</p>
+                <p>Serbia</p>
+            </div>
+            <div class="col">
+                <i class="fas fa-phone"></i>
+                <p>Main street 2, Novi Sad</p>
+                <p>Serbia</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
