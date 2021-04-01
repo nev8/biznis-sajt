@@ -17,10 +17,10 @@
     <nav>
         <a href="" class="logo">BUSINESS <br> <span>Marketing &amp; consulting</span></a>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Team</a></li>
+            <li><a href="#mainHeader">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
             <li><a href="">Sign up</a></li>
             <li><a href=""><i class="fas fa-search"></i></a></li>
         </ul>

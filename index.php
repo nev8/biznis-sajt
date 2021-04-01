@@ -1,7 +1,7 @@
 <?php include "partials/header.php" ?>
 
 <!--Header-->
-<header class="mainHeader">
+<header id= "mainHeader" class="mainHeader">
     <h1>Trusted and <br> professionals advisers</h1>
     <h3>for your business</h3>
     <p>Showcase your Profile to the world using online CV builder and Get Hired Faster</p>
@@ -9,7 +9,7 @@
 </header>
 
 <!--Headings-->
-<section class="container headings">
+<section id= "about" class="container headings">
     <article>
         <h2>01</h2>
     </article>
@@ -33,7 +33,7 @@
 </section>
 
 <!--Headings-->
-<section class="container headings">
+<section id= "services" class="container headings">
     <article>
         <h2>02</h2>
     </article>
@@ -129,7 +129,7 @@
 </section>
 
 <!--Headings-->
-<section class="container headings">
+<section id= "team" class="container headings">
     <article>
         <h2>04</h2>
     </article>
