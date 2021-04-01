@@ -91,7 +91,8 @@ a {
             text-transform: uppercase;
         }
         h2 {
-            font-size: 3rem;
+            font-size: 2.7rem;
+            text-transform: uppercase;
             @media(max-width: 767px) {
                 font-size: 2rem;
             }
@@ -193,7 +194,7 @@ footer {
 /*********************
 Header
 *********************/
-header {
+.mainHeader {
     background-image: url(../img/header.jpg);
     background-position: center;
     background-size: cover;
@@ -258,5 +259,72 @@ About
             font-size: 2rem;
         }
     }
-   
+}
+/*********************
+Services
+*********************/
+.services {
+    padding: $padding;
+    @include flex(space-between, center, row);
+    article {
+        flex: 0 0 30%;
+        border: 1px solid black;
+        padding: 20px;
+        margin-bottom: 50px;
+        @media(max-width: 767px) {
+            flex: 0 0 100%;
+        }
+        i {
+            color: $pink;
+            font-size: 5rem;
+            margin-bottom: 20px;
+        }
+        h3 {
+            font-size: 1.7rem;
+        }
+        hr {
+            margin: 20px 0;
+        }
+        p {
+            text-align: justify;
+        }
+        &:hover {
+            box-shadow: 0 0 20px $lightgray;
+            transform: scale(1.1);
+            transition: $transition;
+        }
+    }
+}
+/*********************
+Black heading
+*********************/
+.business {
+    background: black;
+    color: white;
+    button {
+        @include btn; 
+    }
+    .counter {
+        @include flex(space-between, center, row);
+        padding: $padding;
+        text-align: center;
+        .col {
+            flex: 1;
+            h2 {
+                color: $pink;
+                font-size: 4rem;
+            }
+            h4 {
+                color: $pink;
+                font-size: 2rem;
+            }
+            hr {
+                border: none;
+                height: 2px;
+                background: white;
+                width: 80px;
+                margin: 30px auto;
+            }
+        }
+    }
 }
