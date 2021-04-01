@@ -128,5 +128,36 @@
     </div>
 </section>
 
+<!--Headings-->
+<section class="container headings">
+    <article>
+        <h2>04</h2>
+    </article>
+    <article>
+        <h3>our team</h3>
+        <h2><span>We Have a Professional</span> Team of Business</h2>
+        <h4>Get your Business in 4 easy steps</h4>
+    </article>
+</section>
+
+<!--Team-->
+<section class=" container team">
+    <article>
+        <img src="img/team1.jpg" alt="">
+        <h4>James Douglas</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam unde repellendus, sint quae nostrum exercitationem quia vitae modi voluptatem nobis.</p>
+    </article>
+    <article>
+        <img src="img/team2.jpg" alt="">
+        <h4>Peter Green</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam unde repellendus, sint quae nostrum exercitationem quia vitae modi voluptatem nobis.</p>
+    </article>
+    <article>
+        <img src="img/team3.jpg" alt="">
+        <h4>Etta James</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam unde repellendus, sint quae nostrum exercitationem quia vitae modi voluptatem nobis.</p>
+    </article>
+</section>
+
 
 <?php include "partials/footer.php" ?>

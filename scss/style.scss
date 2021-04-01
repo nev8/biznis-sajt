@@ -165,6 +165,7 @@ footer {
     padding: 100px 0;
     background: linear-gradient(to right, black, $pink);
     text-align: center;
+    color: white;
     .container {
         @include flex(space-between, center, row);
         .col {
